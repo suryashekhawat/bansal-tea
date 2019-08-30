@@ -1,0 +1,32 @@
+.trade-enquiry-section{
+  padding: 25px;
+
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    h1{
+      color: $color-blue;
+      text-transform: uppercase;
+    }
+    p{
+      color: $color-gray;
+    }
+  }
+  .stick-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    button{
+      text-transform: uppercase;
+    }
+  }
+}

@@ -237,6 +237,43 @@ ul {
   height: 300px;
 }
 
+.form-control {
+  border-radius: 0px;
+  background-color: #9c9c9c;
+  color: black;
+}
+
+.trade-enquiry-section {
+  padding: 25px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+.trade-enquiry-section .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.trade-enquiry-section .heading h1 {
+  color: #3bb0ef;
+  text-transform: uppercase;
+}
+.trade-enquiry-section .heading p {
+  color: #d2d3d5;
+}
+.trade-enquiry-section .stick-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.trade-enquiry-section .stick-right button {
+  text-transform: uppercase;
+}
+
 .bold {
   font-weight: bold;
 }
