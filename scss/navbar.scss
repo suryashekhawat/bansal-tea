@@ -8,6 +8,10 @@ $navbar-item-font-size: 22px;
   align-items: center;
   background-color: $navbar-color;
   padding: $navbar-padding;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 .navbar .brand-logo{
   position: relative;

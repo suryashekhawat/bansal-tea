@@ -5,14 +5,18 @@
 }
 
 body {
-  background-color: black;
+  background-color: #373435;
   margin: 0;
   color: white;
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .navbar {
@@ -22,6 +26,10 @@ h1 {
   align-items: center;
   background-color: white;
   padding: 25px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 
 .navbar .brand-logo {
@@ -96,6 +104,47 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.products-family-section {
+  padding: 25px;
+}
+.products-family-section .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.products-family-section .heading h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #d2ae6d;
+}
+.products-family-section .products-group-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.products-family-section .products-group-image img {
+  width: 250px;
+  height: 250px;
+}
+.products-family-section .products-group-image h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #d2d3d5;
+}
+.products-family-section .products-group-image p {
+  text-align: center;
+  color: #9c9c9c;
 }
 
 .bold {
