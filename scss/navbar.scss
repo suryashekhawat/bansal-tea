@@ -84,9 +84,8 @@ $navbar-item-font-size: 22px;
 .navbar ul li a{
   font-size: $navbar-item-font-size;
   text-transform: uppercase;
-  &.active{
-    color: black;
-  }
+  color: black;
+  
   &:visited{
     color: black;
   }

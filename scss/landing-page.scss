@@ -54,6 +54,15 @@
   ul{
     li{
       margin-bottom: 5px;
+      a{
+        color: black;
+        &:visited{
+          color: black;
+        }
+        &:hover{
+          color: black;
+        }
+      }
     }
   }
   .social-link-icon{
