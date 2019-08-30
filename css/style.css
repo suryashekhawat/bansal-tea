@@ -23,6 +23,10 @@ ul {
   list-style: none;
 }
 
+.dev-info p {
+  font-size: 13px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
