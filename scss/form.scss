@@ -4,3 +4,13 @@
   background-color: $color-grey-lite;
   color: black;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: $color-brown;
+    border-color: $color-brown;
+    &:hover{
+      background-color: $color-blue;
+      border-color: $color-brown;
+    }
+}

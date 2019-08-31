@@ -243,6 +243,16 @@ ul {
   color: black;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #d2ae6d;
+  border-color: #d2ae6d;
+}
+.btn-primary:hover {
+  background-color: #3bb0ef;
+  border-color: #d2ae6d;
+}
+
 .trade-enquiry-section {
   padding: 25px;
   padding-left: 250px;
