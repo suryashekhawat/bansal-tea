@@ -1,0 +1,41 @@
+.our-journey-section{
+  .year{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+      font-size: 52px;
+      padding-bottom: 50px;
+      color: $color-brown;
+    }
+  }
+  .company-info{
+    .company-content{
+      h1{
+
+      }
+      p{
+        font-size: 32px;
+        color: $color-brown;
+        font-family: monospace;
+        text-align: center;
+      }
+    }
+    .company-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 100%;
+      }
+      p{
+        font-size: 12px;
+        padding-top: 5px;
+        color: $color-gray;
+      }
+    }
+  }
+}

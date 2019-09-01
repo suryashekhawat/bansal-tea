@@ -45,6 +45,7 @@ ul {
 }
 .heading h1 {
   text-transform: uppercase;
+  margin-bottom: 15px;
 }
 .heading p {
   color: #9c9c9c;
@@ -62,6 +63,10 @@ ul {
   margin-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .navbar {
@@ -404,8 +409,36 @@ ul {
   color: #9c9c9c;
 }
 
-.bold {
-  font-weight: bold;
+.our-journey-section .year {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-journey-section .year h1 {
+  font-size: 52px;
+  padding-bottom: 50px;
+  color: #d2ae6d;
+}
+.our-journey-section .company-info .company-content p {
+  font-size: 32px;
+  color: #d2ae6d;
+  font-family: monospace;
+  text-align: center;
+}
+.our-journey-section .company-info .company-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-journey-section .company-info .company-image img {
+  width: 100%;
+}
+.our-journey-section .company-info .company-image p {
+  font-size: 12px;
+  padding-top: 5px;
+  color: #d2d3d5;
 }
 
 /*# sourceMappingURL=style.css.map */
