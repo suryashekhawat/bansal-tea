@@ -30,3 +30,30 @@ ul {
   width: 100%;
   height: 300px;
 }
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1{
+    text-transform: uppercase;
+  }
+  p{
+    color: $color-gray-lite;
+  }
+}
+
+.default-page-padding{
+  padding: 25px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+
+}
+
+.content-section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}

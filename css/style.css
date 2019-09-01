@@ -33,6 +33,32 @@ ul {
   height: 300px;
 }
 
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1 {
+  text-transform: uppercase;
+}
+.heading p {
+  color: #9c9c9c;
+}
+
+.default-page-padding {
+  padding: 25px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.content-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -331,6 +357,43 @@ ul {
   color: #d2ae6d;
 }
 .our-usp .usp-block p {
+  color: #9c9c9c;
+}
+
+.certification-secction .heading h1 {
+  color: #d2d3d5;
+}
+.certification-secction h1 {
+  text-align: center;
+  color: #d2ae6d;
+}
+.certification-secction p {
+  text-align: center;
+  color: #d2d3d5;
+}
+.certification-secction .our-certificate {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.certification-secction .our-certificate .certificate-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certification-secction .our-certificate .certificate-image img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 12px;
+}
+.certification-secction .our-certificate .certificate-image h1 {
+  color: #d2ae6d;
+  font-size: 14px;
+}
+.certification-secction .our-certificate .certificate-info {
+  font-size: 30px;
+}
+.certification-secction .our-certificate .certificate-info p {
   color: #9c9c9c;
 }
 

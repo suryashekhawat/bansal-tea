@@ -1,0 +1,44 @@
+.certification-secction{
+  .heading {
+    h1{
+      color: $color-gray;
+    }
+  }
+  h1{
+    text-align: center;
+    color: $color-brown;
+  }
+  p{
+    text-align: center;
+    color: $color-gray;
+  }
+
+  .our-certificate{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    .certificate-image{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 12px;
+      }
+      h1{
+        color: $color-brown;
+        font-size: 14px;
+      }
+    }
+    .certificate-info{
+      font-size: 30px;
+      p{
+        color: $color-gray-lite;
+      }
+    }
+
+  }
+
+}
