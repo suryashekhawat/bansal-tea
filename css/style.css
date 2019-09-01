@@ -441,6 +441,10 @@ ul {
   color: #d2d3d5;
 }
 
+.contact-page-section {
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .contact-page-section h1 {
   text-transform: uppercase;
 }
