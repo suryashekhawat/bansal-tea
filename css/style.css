@@ -38,12 +38,17 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 .heading h1 {
   text-transform: uppercase;
 }
 .heading p {
   color: #9c9c9c;
+  text-align: center;
 }
 
 .default-page-padding {
@@ -269,6 +274,12 @@ ul {
   height: 300px;
 }
 
+.form-heading {
+  font-size: 32px;
+  color: #d2ae6d;
+  text-transform: uppercase;
+}
+
 .form-control {
   border-radius: 0px;
   background-color: #9c9c9c;
@@ -287,24 +298,8 @@ ul {
 
 .trade-enquiry-section {
   padding: 25px;
-  padding-left: 250px;
-  padding-right: 250px;
   padding-top: 170px;
   padding-bottom: 170px;
-}
-.trade-enquiry-section .heading {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 80px;
-}
-.trade-enquiry-section .heading h1 {
-  color: #3bb0ef;
-  text-transform: uppercase;
-}
-.trade-enquiry-section .heading p {
-  color: #d2d3d5;
 }
 .trade-enquiry-section .stick-right {
   display: flex;
@@ -314,6 +309,10 @@ ul {
 }
 .trade-enquiry-section .stick-right button {
   text-transform: uppercase;
+}
+.trade-enquiry-section .trade-form {
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 .our-usp {
@@ -394,6 +393,14 @@ ul {
   font-size: 30px;
 }
 .certification-secction .our-certificate .certificate-info p {
+  color: #9c9c9c;
+}
+
+.career-section .faqs h1 {
+  color: #d2ae6d;
+}
+.career-section .faqs p {
+  font-size: 13px;
   color: #9c9c9c;
 }
 

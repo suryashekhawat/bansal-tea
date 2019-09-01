@@ -36,11 +36,18 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
   h1{
     text-transform: uppercase;
+    margin-bottom: 15px;
   }
   p{
     color: $color-gray-lite;
+    text-align:center;
+
   }
 }
 
