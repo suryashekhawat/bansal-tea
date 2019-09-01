@@ -441,4 +441,14 @@ ul {
   color: #d2d3d5;
 }
 
+.contact-page-section h1 {
+  text-transform: uppercase;
+}
+.contact-page-section p {
+  color: #9c9c9c;
+}
+.contact-page-section .google-map iframe {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */

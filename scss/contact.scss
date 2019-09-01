@@ -1,0 +1,13 @@
+.contact-page-section{
+  h1{
+    text-transform: uppercase;
+  }
+  p{
+    color: $color-gray-lite;
+  }
+  .google-map{
+    iframe{
+      width: 100%;
+    }
+  }
+}
