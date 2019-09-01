@@ -1,0 +1,45 @@
+.our-usp {
+  padding: 25;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-left: 200px;
+  padding-right: 200px;
+  .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+      color:$color-gray;
+      text-transform: uppercase;
+    }
+    p{
+      color: $color-gray-lite;
+      text-align: center;
+    }
+
+    }
+    p{
+      color: $color-gray-lite;
+      text-align: center;
+    }
+    .usp-block{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      img{
+        width: 100px;
+        height: 100px;
+      }
+      h1{
+        color: $color-brown;
+      }
+      p{
+        color: $color-gray-lite;
+      }
+  }
+}
