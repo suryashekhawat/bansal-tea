@@ -61,6 +61,10 @@
   var navbar_state = false;
   $(".nav-menu").on('click', function(e) {
     console.log(e);
+    var pos = $(window).scrollTop();
+    if (pos<pos<348){
+      $(".navbar").removeClass( "navbar-white-color" );
+    }
     if (navbar_state == false) {
       $("#nav-menu-items").css("display", "flex");
       $(".navbar").css("background-color", "white");
