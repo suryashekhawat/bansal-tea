@@ -388,6 +388,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  padding: 25px;
+  height: 300px;
 }
 .certification-secction .our-certificate .certificate-image img {
   width: 100px;
@@ -395,8 +398,12 @@ ul {
   margin-bottom: 12px;
 }
 .certification-secction .our-certificate .certificate-image h1 {
-  color: #d2ae6d;
+  color: black;
   font-size: 14px;
+}
+.certification-secction .our-certificate .certificate-image p {
+  color: #5d5d5d;
+  font-size: 13px;
 }
 .certification-secction .our-certificate .certificate-info {
   font-size: 30px;

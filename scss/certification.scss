@@ -22,14 +22,21 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-color: white;
+      padding: 25px;
+      height: 300px;
       img{
         width: 100px;
         height: 100px;
         margin-bottom: 12px;
       }
       h1{
-        color: $color-brown;
+        color: black;
         font-size: 14px;
+      }
+      p{
+        color: #5d5d5d;
+        font-size: 13px;
       }
     }
     .certificate-info{
