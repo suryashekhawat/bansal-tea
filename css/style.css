@@ -146,6 +146,16 @@ ul {
   display: block;
 }
 
+.navbar-white-color ul li a {
+  color: white !important;
+}
+.navbar-white-color ul li a:visited {
+  color: white !important;
+}
+.navbar-white-color ul li a:hover {
+  color: white !important;
+}
+
 .navbar ul li a {
   font-size: 22px;
   text-transform: uppercase;

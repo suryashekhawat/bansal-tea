@@ -80,12 +80,26 @@ $navbar-item-font-size: 22px;
     }
   }
 }
-
+.navbar-white-color {
+  ul{
+    li{
+      a{
+        color: white !important;
+        &:visited{
+          color: white !important;
+        }
+        &:hover{
+          color: white !important;
+        }
+      }
+    }
+  }
+}
 .navbar ul li a{
   font-size: $navbar-item-font-size;
   text-transform: uppercase;
   color: black;
-  
+
   &:visited{
     color: black;
   }
