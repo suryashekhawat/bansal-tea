@@ -402,6 +402,11 @@ ul {
   padding: 25px;
   height: 300px;
 }
+.certification-secction .our-certificate .certificate-image .color-blue {
+  background-color: #0f3fab;
+  width: 70%;
+  padding: 5px;
+}
 .certification-secction .our-certificate .certificate-image img {
   width: 100px;
   height: 100px;
@@ -430,19 +435,27 @@ ul {
   color: #9c9c9c;
 }
 
+.our-journey-section .spacer-small {
+  margin-top: 50px;
+}
 .our-journey-section .year {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 .our-journey-section .year h1 {
   font-size: 52px;
   padding-bottom: 50px;
   color: #d2ae6d;
 }
+.our-journey-section .company-info .company-content h1 {
+  margin-bottom: 10px;
+}
 .our-journey-section .company-info .company-content p {
-  font-size: 32px;
+  font-size: 23px;
   color: #d2ae6d;
   font-family: monospace;
   text-align: center;
@@ -452,9 +465,10 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 .our-journey-section .company-info .company-image img {
-  width: 100%;
+  width: 70%;
 }
 .our-journey-section .company-info .company-image p {
   font-size: 12px;
