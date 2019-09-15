@@ -635,11 +635,22 @@ ul {
   padding-left: 100px;
   padding-right: 100px;
 }
+@media screen and (max-width: 500px) {
+  .contact-page-section {
+    padding: 5px;
+  }
+}
 .contact-page-section h1 {
   text-transform: uppercase;
 }
 .contact-page-section p {
   color: #9c9c9c;
+}
+@media screen and (max-width: 500px) {
+  .contact-page-section .google-map {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 .contact-page-section .google-map iframe {
   width: 100%;

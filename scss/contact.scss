@@ -1,6 +1,9 @@
 .contact-page-section{
   padding-left: 100px;
   padding-right: 100px;
+  @media screen and (max-width: $mobilescreen){
+    padding: 5px;
+  }
   h1{
     text-transform: uppercase;
   }
@@ -8,6 +11,10 @@
     color: $color-gray-lite;
   }
   .google-map{
+    @media screen and (max-width: $mobilescreen){
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
     iframe{
       width: 100%;
     }
