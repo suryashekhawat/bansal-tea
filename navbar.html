@@ -98,9 +98,10 @@
   $(".nav-menu").on('click', function(e) {
 
     var pos = $(window).scrollTop();
-
+    $(".navbar").css("display", "flex");
     if (pos<348){
       $(".navbar").removeClass( "navbar-white-color" );
+
     }
     if (navbar_state == false) {
       $("#nav-menu-items").css("display", "flex");
