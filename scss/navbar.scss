@@ -144,11 +144,11 @@ $navbar-item-font-size: 22px;
     padding-top: 25px;
     padding-left: 10px;
     position: fixed;
-    width: 100%;
+    width: 80%;
     height: 100%;
     z-index: 1;
     overflow-y: scroll;
-    overflow-x: hidden;
+    // overflow-x: hidden;
     ul{
       width: 100%;
       padding-left: 10%;
