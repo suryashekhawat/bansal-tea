@@ -4,6 +4,9 @@
   padding-bottom: 170px;
   padding-left: 200px;
   padding-right: 200px;
+  @media screen and (max-width: $mobilescreen){
+    padding: 0;
+  }
   .heading{
     display: flex;
     flex-direction: column;

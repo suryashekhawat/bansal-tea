@@ -445,6 +445,11 @@ ul {
   padding-left: 200px;
   padding-right: 200px;
 }
+@media screen and (max-width: 500px) {
+  .our-usp {
+    padding: 0;
+  }
+}
 .our-usp .heading {
   display: flex;
   flex-direction: column;
