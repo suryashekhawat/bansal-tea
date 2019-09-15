@@ -95,6 +95,7 @@
 
 <script type="text/javascript">
   var navbar_state = false;
+  var deviceWidth = $(window).width();
   $(".nav-menu").on('click', function(e) {
 
     var pos = $(window).scrollTop();
@@ -106,7 +107,13 @@
     if (navbar_state == false) {
       $("#nav-menu-items").css("display", "flex");
       $(".navbar").css("background-color", "white");
-      $("#nav-menu-image-btn").attr("src", "images/icons/cross-black.png");
+
+      if (deviceWidth <= 500){
+          $("#nav-menu-image-btn").attr("src", "images/icons/cross-white.png");
+      }else{
+
+        $("#nav-menu-image-btn").attr("src", "images/icons/cross-black.png");
+      }
       navbar_state = true;
     } else {
       $("#nav-menu-items").css("display", "none");
