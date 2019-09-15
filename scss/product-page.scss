@@ -2,8 +2,14 @@
   padding: 25px;
   padding-top: 150px;
   padding-bottom: 150px;
+  @media screen and (max-width: $mobilescreen){
+    padding: 15px;
+  }
   h1{
     color: $color-gray;
+    @media screen and (max-width: $mobilescreen){
+      padding: 15px;
+    }
   }
   p{
     color: $color-gray-lite;
@@ -26,6 +32,13 @@
   .product{
     margin-top: 30px;
     margin-bottom: 30px;
+    @media screen and (max-width: $mobilescreen){
+      border-bottom-color: #7b7b7b;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      padding-bottom: 15px;
+    }
+
     .product-image{
       display: flex;
       flex-direction: column;
