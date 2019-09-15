@@ -96,10 +96,14 @@
 <script type="text/javascript">
   var navbar_state = false;
   var deviceWidth = $(window).width();
+
   $(".nav-menu").on('click', function(e) {
 
     var pos = $(window).scrollTop();
     $(".navbar").css("display", "flex");
+    if (deviceWidth <= 500){
+      $(".brand-logo").css("display", "none");
+    }
     if (pos<348){
       $(".navbar").removeClass( "navbar-white-color" );
 
@@ -116,6 +120,9 @@
       }
       navbar_state = true;
     } else {
+      if (deviceWidth <= 500){
+        $(".brand-logo").css("display", "block");
+      }
       $("#nav-menu-items").css("display", "none");
       $(".navbar").css("background-color", "transparent");
       $("#nav-menu-image-btn").attr("src", "images/icons/menu-white.png");

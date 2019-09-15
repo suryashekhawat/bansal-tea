@@ -215,7 +215,11 @@ ul {
     overflow-y: scroll;
   }
   .navbar .brand-logo {
-    display: none;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    top: 15px;
   }
   .navbar ul {
     width: 100%;

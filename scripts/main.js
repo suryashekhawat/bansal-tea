@@ -6,8 +6,8 @@ var deviceWidth;
 $(document).ready(function(e){
   deviceWidth = $(window).width();
   if (deviceWidth <= 500){
-
     $(".navbar").css("display", "none");
+    $(".brand-logo").css("display", "block");
   }
 
   $(window).scroll(function() {
