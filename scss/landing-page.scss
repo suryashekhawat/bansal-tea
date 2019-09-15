@@ -6,7 +6,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    @media screen and (max-width: $mobilescreen){
+      padding: 0;
+    }
     h1{
       font-size: 32px;
       font-weight: bold;
@@ -15,7 +17,12 @@
       padding-top: 50px;
       padding-bottom: 50px;
       color: $color-brown;
+      @media screen and (max-width: $mobilescreen){
+          font-size: 20px;
+          padding: 0;
+      }
     }
+
   }
   .products-group-image {
     display: flex;
@@ -53,6 +60,8 @@
   }
   ul{
     li{
+      color: #353535;
+      font-size: 11px;
       margin-bottom: 5px;
       a{
         color: black;

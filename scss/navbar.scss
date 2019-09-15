@@ -1,9 +1,24 @@
-$mobilescreen: 500px;
+
 $navbar-color: transparent;
 $navbar-padding: 25px;
 $navbar-item-font-size: 22px;
-.mobile-navbar{
-  display: none;
+
+.nav-menu{
+  position: fixed;
+  right: 100px;
+  @media screen and (max-width: $mobilescreen){
+    background-color: black;
+    right: 0px;
+
+  }
+  img{
+    width: 50px;
+    height: 50px;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+  z-index: 1;
 }
 .navbar{
   display: flex;
@@ -20,17 +35,7 @@ $navbar-item-font-size: 22px;
   #nav-menu-items{
     display: none;
   }
-  .nav-menu{
-    position: absolute;
-    right: 100px;
-    img{
-      width: 50px;
-      height: 50px;
-    }
-    &:hover{
-      cursor: pointer;
-    }
-  }
+
 }
 .navbar .brand-logo{
   position: relative;
@@ -128,7 +133,7 @@ $navbar-item-font-size: 22px;
 
 @media screen and (max-width: $mobilescreen) {
   .navbar{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -196,16 +201,9 @@ $navbar-item-font-size: 22px;
         }
       }
     }
-    .nav-menu{
-      position: fixed;
-      right: 0px;
-      top: 0px;
-      background-color: black;
-      width: 50px;
-      height: 50px;
-      img{
-        width: 100%;
-      }
-    }
+
   }
+
+
+
 }
