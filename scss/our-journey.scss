@@ -20,12 +20,21 @@
     .company-content{
       h1{
         margin-bottom: 10px;
+
+        @media screen and (max-width: $mobilescreen){
+          margin-top: 15px;
+          font-size: 20px;
+        }
       }
       p{
         font-size: 23px;
         color: $color-brown;
         font-family: monospace;
         text-align: center;
+        @media screen and (max-width: $mobilescreen){
+          margin-top: 15px;
+          font-size: 14px;
+        }
       }
     }
     .company-image{
@@ -34,7 +43,9 @@
       justify-content: center;
       align-items: center;
       background-color: white;
-
+      @media screen and (max-width: $mobilescreen){
+        min-height: 300px;
+      }
       img{
         width: 70%;
       }

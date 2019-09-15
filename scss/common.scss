@@ -43,6 +43,11 @@ ul {
   margin-bottom: 50px;
   padding-left: 200px;
   padding-right: 200px;
+
+  @media screen and (max-width: $mobilescreen){
+    padding: 0;
+  }
+
   h1{
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -59,7 +64,11 @@ ul {
   padding-top: 170px;
   padding-bottom: 170px;
 
+  @media screen and (max-width: $mobilescreen){
+    padding-top: 10px;
+  }
 }
+
 
 .content-section{
   margin-top: 30px;
