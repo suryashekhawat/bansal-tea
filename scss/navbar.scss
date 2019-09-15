@@ -1,6 +1,10 @@
+$mobilescreen: 500px;
 $navbar-color: transparent;
 $navbar-padding: 25px;
 $navbar-item-font-size: 22px;
+.mobile-navbar{
+  display: none;
+}
 .navbar{
   display: flex;
   flex-direction: row;
@@ -12,6 +16,11 @@ $navbar-item-font-size: 22px;
   top: 0;
   z-index: 1;
   width: 100%;
+
+  @media screen and (max-width: $mobilescreen){
+    display: none;
+
+  }
   #nav-menu-items{
     display: none;
   }
@@ -31,6 +40,8 @@ $navbar-item-font-size: 22px;
   position: relative;
   width: 100px;
 
+
+
 }
 .navbar .brand-logo img{
   width: 100px;
@@ -47,7 +58,11 @@ $navbar-item-font-size: 22px;
   align-items: center;
   padding-right: 10px;
 
-
+  @media screen and (max-width: $mobilescreen){
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .navbar ul li{
   margin-right: 15px;
@@ -117,4 +132,69 @@ $navbar-item-font-size: 22px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: $mobilescreen) {
+  .mobile-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    ul{
+      width: 100%;
+      padding-left: 10%;
+      li{
+        border-bottom-color: #cecece;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+        a{
+          font-weight: bold;
+          font-size: 32px;
+        }
+        ul{
+          background-color: transparent;
+          margin-left: 5px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          li{
+            border: none;
+            a{
+              color: gray;
+              font-size: 20px;
+              &:hover{
+                color: black;
+              }
+              &:active{
+                color: gray;
+              }
+              &:visited{
+                color: gray;
+              }
+            }
+          }
+        }
+      }
+    }
+    .nav-menu{
+      position: fixed;
+      right: 0px;
+      top: 0px;
+      background-color: black;
+      width: 100px;
+      height: 100px;
+      img{
+        width: 100%;
+      }
+    }
+  }
 }

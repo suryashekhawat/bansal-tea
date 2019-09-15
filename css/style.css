@@ -69,6 +69,10 @@ ul {
   font-weight: bold;
 }
 
+.mobile-navbar {
+  display: none;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -80,6 +84,11 @@ ul {
   top: 0;
   z-index: 1;
   width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
 }
 .navbar #nav-menu-items {
   display: none;
@@ -116,6 +125,13 @@ ul {
   justify-content: flex-end;
   align-items: center;
   padding-right: 10px;
+}
+@media screen and (max-width: 500px) {
+  .navbar ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .navbar ul li {
@@ -178,6 +194,70 @@ ul {
   align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+  .mobile-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .mobile-navbar ul {
+    width: 100%;
+    padding-left: 10%;
+  }
+  .mobile-navbar ul li {
+    border-bottom-color: #cecece;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+  }
+  .mobile-navbar ul li a {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .mobile-navbar ul li ul {
+    background-color: transparent;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .mobile-navbar ul li ul li {
+    border: none;
+  }
+  .mobile-navbar ul li ul li a {
+    color: gray;
+    font-size: 20px;
+  }
+  .mobile-navbar ul li ul li a:hover {
+    color: black;
+  }
+  .mobile-navbar ul li ul li a:active {
+    color: gray;
+  }
+  .mobile-navbar ul li ul li a:visited {
+    color: gray;
+  }
+  .mobile-navbar .nav-menu {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+  }
+  .mobile-navbar .nav-menu img {
+    width: 100%;
+  }
+}
 .products-family-section {
   padding: 25px;
 }
