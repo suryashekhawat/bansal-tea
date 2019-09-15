@@ -2,7 +2,9 @@
   padding: 25px;
   padding-top: 170px;
   padding-bottom: 170px;
-
+  @media screen and (max-width: $mobilescreen){
+    padding: 15px;
+  }
   .stick-right{
     display: flex;
     flex-direction: row;
@@ -16,5 +18,9 @@
   .trade-form{
     padding-left: 250px;
     padding-right: 250px;
+    @media screen and (max-width: $mobilescreen){
+      padding: 0px;
+      padding-bottom: 20px;
+    }
   }
 }

@@ -442,6 +442,11 @@ ul {
   padding-top: 170px;
   padding-bottom: 170px;
 }
+@media screen and (max-width: 500px) {
+  .trade-enquiry-section {
+    padding: 15px;
+  }
+}
 .trade-enquiry-section .stick-right {
   display: flex;
   flex-direction: row;
@@ -454,6 +459,12 @@ ul {
 .trade-enquiry-section .trade-form {
   padding-left: 250px;
   padding-right: 250px;
+}
+@media screen and (max-width: 500px) {
+  .trade-enquiry-section .trade-form {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
 }
 
 .our-usp {
