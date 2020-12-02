@@ -178,6 +178,7 @@ ul {
 }
 
 .navbar ul li a {
+  display: flex;
   font-size: 22px;
   text-transform: uppercase;
   color: black;
